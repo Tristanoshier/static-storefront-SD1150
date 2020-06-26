@@ -1,0 +1,39 @@
+.main-location-header {
+    position: absolute;
+    right: 0;
+    width: 30vw; 
+    height: 120vh;
+    background-color: var(--white);
+    border-left: 2px solid var(--lightgrey);
+    padding-left: 20px;
+}
+
+.location-header {
+    color: var(--blue);
+}
+.location-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    display: inline-block;
+    border-radius: 50%;
+    margin-top: 0;
+    margin-right: 10px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: box-shadow 0.5s ease-in-out;   
+}
+
+.location-image:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+
+.location-item {
+    color: var(--grey);
+    display: inline-block;
+}
+
+.location-item:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
